@@ -1,0 +1,135 @@
+# ==============================================================================
+# General Git Ignores
+# ==============================================================================
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local configuration files
+.env
+.env.local
+.env.*.local
+
+# ==============================================================================
+# Python General
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Pelican
+# Static site generator
+output/
+cache/
+
+# ==============================================================================
+# Jupyter Lab and Notebooks
+# ==============================================================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Lab workspace and settings
+.jupyter/
+lab/
+
+# By default, it's good practice to ignore notebooks to prevent
+# committing large output cells. If you want to track notebooks,
+# you can comment out the line below. For collaboration, it's often
+# better to share notebooks with cleared outputs.
+# *.ipynb
+
+# ==============================================================================
+# IDE and Editor Directories
+# ==============================================================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# ==============================================================================
+# Testing and Coverage Reports
+# ==============================================================================
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Testing databases
+*.db
+*.sqlite3
+
+# Tox
+.tox/
+# ==============================================================================
+# Project-specific Folders (ignore contents, keep directory)
+# ==============================================================================
+
+# Ignore the contents of the data, datamart, and model_store directories
+data/*
+datamart/*
+model_store/*
+
